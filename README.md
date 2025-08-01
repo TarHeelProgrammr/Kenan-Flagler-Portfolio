@@ -23,7 +23,5 @@ Welcome! This is a curated selection of backend, DeFi, and data projects that hi
 
 ---
 
-# My Philosophy
 
-AI helped me scale and debug faster — but like a calculator to a mathematician, it amplified my logic, it didn't replace it.
-
+I want to clarify for my personal endevaours (The manual flashloan and the dex arbitrage scanner) I did in fact use AI when developing that software. I woudn't consider myself to be lazy or cheating in the software development process. Becuase for me AI didn't keep my brain sendentary, by not having to learn all the coding languages in depth traditionally, but rather it weaponized me as a designer. Similair to a mathemetician using a calculator for simple multiplication, I believe that as long as you understand conceptually how something works, there is no problem in using technology to help you overcome certain nuances. 
