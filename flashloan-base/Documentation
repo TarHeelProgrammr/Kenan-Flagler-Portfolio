@@ -1,0 +1,46 @@
+We intialized everything within this directory
+
+
+
+address list https://aave.com/docs/resources/addresses
+
+sushi swap router address and factory adress list https://docs.uniswap.org/contracts/v2/reference/smart-contracts/v2-deployments
+[uni swap router addresses https://github.com/sushiswap/v2-core/blob/master/deployments/base/UniswapV2Router02.json](https://github.com/Uniswap/universal-router/tree/main/deploy-addresses)
+
+Token addresses, decimals, and fee tier remain unchanged. 
+
+
+
+Commands to run for the program
+npm install "  ", npm list " ",
+
+Work Flow 
+ npx hardhat compile,  If you make changes to flashloaneth 
+ npx hardhat run scripts/deploy.js --network sepolia         creates a new instance of a contract
+ npx hardhat run scripts/interact.js --network sepolia       actually calls a function to a deployed smart contract
+ npx hardhat console --network basemainnet
+
+ 
+
+Previous: 0xc8fFb466f4435a3995558D91b1f7df83a81fBE81,0x3df2A6A6794522A53DfD5FC77bed85F2104eCe76,0x001ceCA19ff5f0d6832f774814FD3e04986E2D2d 
+
+current contract address:0xa4d59876DcDAf542acA62A3d6395A6b82D749805, 
+
+
+Balancer Defi and curve are some other exchanges 
+
+
+$30 FlashLoanArbitrageBot23 deployed to: 0x315163323F6F7FB7DeAC9Eb74f5BBcdA0d0191C9
+0xccACBeebf5476BcB771205Cc8C42268803B2D33C
+2/27/2025 0xBAa5651836c87F800f4A3D5B1344A1dD56b458C1
+0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D
+0x001ceCA19ff5f0d6832f774814FD3e04986E2D2d      sometimes try all uppercase or lower case for bad check sum error 
+3/5/2025
+0xa4d59876DcDAf542acA62A3d6395A6b82D749805 Base  (same byte code as previous)
+0x2632D3Ba68B1722Ae94Ecf5Ba1Bcc2c7bb1961e3
+0x354740ae9288949813dEBdf00Ca1b1425f25CC83      dividing math was diffrent between bowth scripts (weth x 1e6 /usdc)
+0x3f8a031a41164aE158903dD439F81A1c78D36f26    3/19/2025 (base wallet was using wrong rpc and liquidty for sushiswap was only 600k)
+
+0xf70F03064859d4dc66D4F417b0A18d179614D6C5    3/20/2025   We updated the scanner to scan by block, but we think there might be a delay in price from when the scanner reads it and when the flashloan trys and executes.  Scanner is only catching like every other ther block.
+
+Borrowing advantage doesn't work and too little spread between uniswap and sushsiswap for liquidty 
