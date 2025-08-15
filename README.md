@@ -9,6 +9,9 @@ I think it's important to provide snippets of my code because not only does it h
 milestones in my journey as a software developer. But people don't just want to hear claims
 they also want to see results. 
 
+In each folder their is a file called summary.md please click on that for context of each
+project. 
+
 ## 🚀 Projects
 
 ### 1. [Manual Flash Loan on Ethereum Mainnet & and a .cjs scanner](./flashloan-base/)
