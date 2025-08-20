@@ -9,6 +9,6 @@ liqap.py attempts to incorporate V3 math, but we are getting tick out of bound e
 
 pools.json has all the pools we were trying to dynamically pool from. 
 
-scanner_log.txt is the output we want to screen shot and some of the terminal
+scanner_log.txt is the output we want to screen shot and some of the terminal,  screen shot whats wrong with liqap.py in terminal ('out of bounds tick error')
 
 Tri flashloan attemepted to execute E scanners arbitrage logic, but we never deployed this smart contract. 
