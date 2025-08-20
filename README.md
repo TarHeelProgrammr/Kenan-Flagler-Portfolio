@@ -19,8 +19,8 @@ project.
   Also includes a .cjs scanner which scans for two legged arbitrage oppurtunities on Basenet. 
 - Tools: Solidity, Python, Hardhat
 
-### 2. [Triangular Scanner](./arb-scanner/)
-- Description: Real-time scanner comparing Base pools on Uniswap and Sushi.
+### 2. [Triangular Scanner](./TriangleArb/)
+- Description: Real-time triangular arbitrage scanner comparing Base pools on Uniswap and Sushi.
 - Note: Still in dev – outputs shown, source partially redacted
 
 ### 3. [What is a Flashloan](./Arbitrage%20Trading.pdf)
