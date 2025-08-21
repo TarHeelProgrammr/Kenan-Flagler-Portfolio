@@ -3,10 +3,10 @@ This is my portfolio for my Kenan-Flagler Business school application.
 
 # Portfolio Projects – Kenan-Flagler Application
 
-This portfolio is intended to display my technical skills, as well as how a combination of AI, conceptual finance and 
-coding knowledge has increased my ability as an entreprenuer. 
+This portfolio is intended to display my technical skills and demonstrates how the integration of AI with finance and 
+conceptual coding knowledge has increased my ability as an entreprenuer. 
 
-Projects 1-3 were my personal endeavours which I developed using AI.  While projects 4-5 were through the Global Career Accelerator Coding 
+Projects #1 & #2 were my personal endeavours which I developed using AI.  While projects 4-5 were through the Global Career Accelerator Coding 
 for Data Analytics program. 
 
 In each folder their is a file called summary.md please click on that for context of each
@@ -20,8 +20,9 @@ project.
 - Tools: Solidity, Python, Hardhat
 
 ### 2. [Triangular Scanner](./TriangleArb/)
-- Description: Real-time triangular arbitrage scanner comparing Base pools on Uniswap and Sushi.
-- Note: Still in dev – outputs shown, source partially redacted
+- Description: Real-time triangular arbitrage scanner comparing different liqudity pools on basenet. 
+- Includes images of data logs and screenshots of terminal output.
+- Used Bolt AI and Copilot 
 
 ### 3. [What is a Flashloan](./Arbitrage%20Trading.pdf)
 - Description: Lucid chart explaining what a flash loan is and its use cases. 
