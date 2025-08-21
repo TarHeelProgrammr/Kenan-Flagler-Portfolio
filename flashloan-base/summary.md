@@ -10,7 +10,7 @@ discrepancies between two fixed tier base WETH/USDC liquidty pools on sushiswap 
 ## 🔧 Stack
 - Solidity + Hardhat
 - Python (for off-chain analytics)
-- Node.js
+- Node.cjs
 
 | File | Description |
 |------|-------------|
