@@ -17,12 +17,12 @@ project.
 ### 1. [Manual Flash Loan on Ethereum Mainnet & and a .cjs scanner](./flashloan-base/)
 - Description: A working flash loan on Ethereum mainnet using Aave liquidity.
   Also includes a .cjs scanner which scans for two legged arbitrage oppurtunities on Basenet. 
-- Tools: Solidity, Python, Hardhat
+- AI tools: Chatgpt-o3 and Deepseek-R1
 
 ### 2. [Triangular Scanner](./TriangleArb/)
 - Description: Real-time triangular arbitrage scanner comparing different liqudity pools on basenet. 
 - Includes images of data logs and screenshots of terminal output.
-- Used Bolt AI and Copilot 
+- AI tools: Bolt AI and Copilot 
 
 ### 3. [What is a Flashloan](./Arbitrage%20Trading.pdf)
 - Description: Lucid chart explaining what a flash loan is and its use cases. 
@@ -34,4 +34,4 @@ project.
 ### 5. [Intro to SQL Project](./intro-sql/)
 - Used SQL to analyze the caliber of sustainability in intels refurbishing program.
 
-Some of the Ai's I used were Copilot, Bolt, Chatgpt-03 model, and DeepSeek. 
+Some of the AI's I used were Copilot, Bolt, Chatgpt-o3 , and DeepSeek R1
