@@ -1,18 +1,33 @@
+# Triangular Arbitrage Prototype on Base
+
+## 📍 Overview
+
 The project includes three different scanners, each designed to detect three-legged triangular arbitrage oppurtunities. 
 This project also includes a triangular arbitrage flashloan smart contract which did succesfully deploy, but did not work properly because the python scanner
 weren't working properly. 
 
-hardhat enviorment  similair to the manual flash loan 
+I also beleive I deleted the deployment script, but we do have a deployed smart contract address in the documentation
 
-E Scanner uses the same three pools every time and has a working log 
+## 🔧 Stack
 
-Scanner.py tries to dynmaically build triangular route canidates, but likely has some sort of filering unexpected profit alphas likely because 
-it doesn't incorporate the V3 math 
+- Solidity + Hardhat  
+- Python (for off-chain analytics)  
+- Node.js  
 
-liqap.py attempts to incorporate V3 math, but we are getting tick out of bound erros so we can't get the terminal to display/
+| File                             | Description                                                                       
+|----------------------------------|-----------------------------------------------------------------------------------|
+| [E_Scanner.py](./E_Scanner.py)             | Uses the same three pools every time and writes a working log                      
+| [Scanner.py](./Scanner.py)                 | Dynamically generates triangular route candidates, was filtering unexpected profit alphas due to missing V3 math 
+| [liqap.py](./liqap.py)                     | Integrates V3 math; currently throws “tick out of bounds” errors                  
+| [pools.json](./pools.json)                 | JSON list of all pools used for dynamic pool sourcing                              
+| [scanner_log.txt](./scanner_log.txt)       | Data log output of EScanner.py                                       
+| [TriFlashloan.sol](./contracts/TriFlashloan.sol) | Solidity contract for the triangular arbitrage flashloan                           
+| [hardhat.config.js](./hardhat.config.js)   | Hardhat configuration for this project                                            
+| [image#1]()   |                       
+| [image#2]() |   
 
-pools.json has all the pools we were trying to dynamically pool from. 
+
+extra pools and documentation 
 
 scanner_log.txt is the output we want to screen shot and some of the terminal,  screen shot whats wrong with liqap.py in terminal ('out of bounds tick error')
 
-Tri flashloan attemepted to execute E scanners arbitrage logic, but we never deployed this smart contract. 
