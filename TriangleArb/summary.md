@@ -1,3 +1,7 @@
+The project includes three different scanners, each designed to detect three-legged triangular arbitrage oppurtunities. 
+This project also includes a triangular arbitrage flashloan smart contract which did succesfully deploy, but did not work properly because the python scanner
+weren't working properly. 
+
 hardhat enviorment  similair to the manual flash loan 
 
 E Scanner uses the same three pools every time and has a working log 
