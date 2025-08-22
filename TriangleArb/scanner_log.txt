@@ -1,0 +1,31 @@
+Scanner Log
+==================================================
+
+================================================================================
+Triangle Arbitrage Scanner
+================================================================================
+Starting arbitrage route scanning...
+Successfully retrieved tokens for 13 pools
+Found 4 unique tokens
+Successfully fetched prices for 13/13 pools
+
+Successful pools:
+----------------------------------------
+0xd0b53D92 | USDC/WETH 0.05%
+0x7AeA2E8A | cbBTC/WETH 0.05%
+0xfBB6Eed8 | cbBTC/USDC 0.05%
+0x88A43bbD | USDC/WETH 0.30% (Uni V2)
+0x8c708056 | cbBTC/WETH 0.30%
+0x6c561B44 | USDC/WETH 0.30%
+0x57713F77 | USDC/WETH 0.05% (Sushi V3)
+0x482Fe995 | USDC/WETH 0.01% (Sushi V3)
+0xBA3F9458 | BRETT/WETH 1%
+0xcDAC0d6c | USDC/WETH Aerodrome 0.03%
+0x2578365B | cbBTC/WETH Aerodrome 0.03%
+0x9c38b55f | cbBTC/USDC Aerodrome 0.03%
+0x72AB388E | USDC/WETH Pancake V3 (dynamic)
+
+Building triangular arbitrage candidates...
+Found 42 triangular arbitrage candidates
+No profitable arbitrage opportunities found
+Scanner finished.
