@@ -13,7 +13,8 @@ This project also includes a triangular arbitrage flashloan smart contract which
 - Solidity + Hardhat  
 - Python (for off-chain analytics)  
 - Node.js  
-
+- Base Mainnet RPC(HTTP) Alchemy 
+- Base Mainnet RPC(Websockets) Alchemy 
 | File                             | Description                                                                       
 |----------------------------------|-----------------------------------------------------------------------------------|
 | [EScanner.py](./Escanner.py)             | Uses the same three pools every time and writes a working log                      
