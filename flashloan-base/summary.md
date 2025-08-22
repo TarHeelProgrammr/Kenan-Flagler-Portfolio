@@ -24,4 +24,4 @@ discrepancies between two fixed tier base WETH/USDC liquidty pools on sushiswap 
 | [deploy.js](./deploy.js) | Script used to deploy smart contract to block chain |
 | [interact.js](./interact.js) | Script used to call the contract |
 | [package.json](./package.json) | Project configuration and dependencies |
-| [hardhat.config.js](./hardhat.config,js) | Hardhat configuration for this project |
+| [hardhat.config.cjs](./hardhat.config.cjs) | Hardhat configuration for this project |
