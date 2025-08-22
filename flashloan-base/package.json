@@ -1,0 +1,29 @@
+{
+  "name": "testetherloan",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aave/core-v3": "^1.19.3",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@sushiswap/sdk": "^5.0.0-canary.116",
+    "@uniswap/sdk": "^3.0.3",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "web3": "^4.16.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.17"
+  }
+}
