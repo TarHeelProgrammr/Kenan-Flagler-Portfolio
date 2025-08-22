@@ -19,7 +19,7 @@ This project also includes a triangular arbitrage flashloan smart contract which
 
 | File                                             | Description                                                                            |
 |--------------------------------------------------|----------------------------------------------------------------------------------------|
-| [EScanner.py](./Escanner.py)                     | Uses the same three pools every time and writes a working log                          |
+| [EScanner.py](./Escanner.py)                     | Uses the same triangular route and records a log of price discrepancies (All pools are Uniswap V3 0.05% fee tier pools: USDC/WETH, cbBTC/WETH, cbBTC/USDC) |
 | [Scanner.py](./scanner.py)                       | Dynamically generates triangular route candidates from pools.json; falsely filters profits due to no V3 math |
 | [liqap.py](./liqap.py)                           | Dynamically generates routes and integrates V3 math; currently throws “tick out of bounds” errors |
 | [pools.json](./pools.json)                       | JSON list of all pools used for dynamic pool sourcing                                 |
