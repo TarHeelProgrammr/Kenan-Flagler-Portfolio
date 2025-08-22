@@ -11,6 +11,7 @@ discrepancies between two fixed tier base WETH/USDC liquidty pools on sushiswap 
 - Solidity + Hardhat
 - Python (for off-chain analytics)
 - Node.cjs
+- RPC url Infura 
 
 | File | Description |
 |------|-------------|
