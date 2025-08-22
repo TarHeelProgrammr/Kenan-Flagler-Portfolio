@@ -25,9 +25,9 @@ I also beleive I deleted the deployment script, but we do have a deployed smart 
 | [hardhat.config.js](./hardhat.config.js)   | Hardhat configuration for this project                                            
 | [image#1]()   |                       
 | [image#2]() |   
+| [requirements.txt]() |   
 
 
-extra pools and documentation 
 
 scanner_log.txt is the output we want to screen shot and some of the terminal,  screen shot whats wrong with liqap.py in terminal ('out of bounds tick error')
 
