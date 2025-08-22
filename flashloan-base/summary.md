@@ -23,3 +23,4 @@ discrepancies between two fixed tier base WETH/USDC liquidty pools on sushiswap 
 | [arbitrage_log.txt](./arbitrage_log.txt) | Data log of the .cjs scanner |
 | [deploy.js](./deploy.js) | Script used to deploy smart contract to block chain |
 | [interact.js](./interact.js) | Script used to call the contract |
+| [package.json](./package.json) | Project configuration and dependencies |
