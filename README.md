@@ -20,7 +20,7 @@ project.
 - AI tools: Chatgpt-o3 and Deepseek-R1
 
 ### 2. [Triangular Scanner](./TriangleArb/)
-- Description: Real-time triangular arbitrage scanner comparing different liqudity pools on basenet. 
+- Description: Real-time triangular arbitrage scanner comparing different liqudity pools on basenet. Solidity contract intended to be interacted with for Triangular arbitrage. 
 - Includes images of data logs and screenshots of terminal output.
 - AI tools: Bolt AI and Copilot 
 
