@@ -1,0 +1,51 @@
+Intialized on 4/11/2025 
+cd CryptoFlashLoanAttempt1/TriangleArb
+activate venv	.\.venv\Scripts\activate	leave with deactivate
+Run scanner	python python\scanner.py	assumes venv active
+Compile contracts	npx hardhat compile	needs hardhat.config.ts
+
+Deploy to Base	npx hardhat run scripts\runArb.ts --network base	fill RPC & key in .env
+Run a single flash‑swap	npx hardhat console --network base → await triFlash.initFlash()	interactive
+npx hardhat run scripts\runArb.js --network base
+Install a new NPM lib	npm i <pkg>	--save-dev for dev‑only
+Update Python deps	pip install <pkg> → pip freeze > requirements.txt	keep list current
+Git add/commit	git add .
+git commit -m "msg"	after you set name/email
+View git config	git config --list	verify user.* entries
+Push to GitHub	git remote add origin <url>
+git push -u origin main	once per repo
+pip install web3 websockets requests python-dotenv
+
+A# 1 compile
+npx hardhat compile
+
+# 2 deploy (your existing runArb.js)
+npx hardhat run scripts\runArb.js --network base
+#  └─ copy the TriFlash address it prints into .env as ARBITRAGE_CONTRACT
+
+# 3 watch blocks
+.\.venv\Scripts\activate
+python python\scanner.py
+
+
+4/11/2025 
+
+Token order messed up on scanner and solidity contract 
+
+4/12/2025 
+
+deployment addresses:
+0xD91746c8905d5aF379f0d7843Ea13c0b9e9D398c first succesful deployment 
+
+a little bit of compatibility issues with openzeppelin and uniswap-v3-perpihery-callback requiring diffrent solidity versions so we down graded call back. 
+We also changed PoolAddress.sol to use byte code instead of unit256. Down grading openzeppelin and uniswap v3 perpierpy and core to 1.0.0 did the trick to use soldity version 0.7.6
+Deployment issue resolved: there was an error with gas limit big numberish the issue happens because ethers.js expects the gas limit to be passed as part of the transaction overrides, not as part of the function parameters. Instead of passing gasLimit directly into initFlash(), you need to pass it as an additional configuration when calling the transaction.
+Having touble with optimzing credit usage. We tried the tactic of lowerthreshold and execute threshold on scanner but the mechanism of scanning every block didn't work. Think it might be an issue with the datetime function or with the actual conditional logic itself.
+
+4/17/2025
+
+working on the dynamic batch pool scanner, we left out a uniswap v4 pool because implemetning it would be too complicated because of the pool contract manager feature. 
+
+5/19/2025 
+
+feel close to finished with dynmaic scanner but still running into hurdles. Math isn't calculating right. Aerdrome dynamic pools aren't returning back. Method slectors haven't verified yet on github. Proably need to fix the classe wrappers. Maybe start logging more weth/eth data poteionally start trying to do manual arbitrage 

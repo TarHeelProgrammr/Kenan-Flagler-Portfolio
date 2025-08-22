@@ -1,0 +1,134 @@
+[
+    {
+        "address": "0xd0b53d9277642d899df5c87a3966a349a798f224",
+        "protocol": "uniswap_v3",
+        "fee": 500,
+        "label": "USDC/WETH 0.05%"
+    },
+    {
+        "address": "0x7aea2e8a3843516afa07293a10ac8e49906dabd1",
+        "protocol": "uniswap_v3",
+        "fee": 500,
+        "label": "cbBTC/WETH 0.05%"
+    },
+    {
+        "address": "0xfbb6eed8e7aa03b138556eedaf5d271a5e1e43ef",
+        "protocol": "uniswap_v3",
+        "fee": 500,
+        "label": "cbBTC/USDC 0.05%"
+    },
+    {
+        "address": "0x88a43bbdf9d098eec7bceda4e2494615dfd9bb9c",
+        "protocol": "uniswap_v2",
+        "fee": 3000,
+        "label": "USDC/WETH 0.30% (Uni V2)"
+    },
+    {
+        "address": "0x8c7080564b5a792a33ef2fd473fba6364d5495e5",
+        "protocol": "uniswap_v3",
+        "fee": 3000,
+        "label": "cbBTC/WETH 0.30%"
+    },
+    {
+        "address": "0x6c561b446416e1a00e8e93e221854d6ea4171372",
+        "protocol": "uniswap_v3",
+        "fee": 3000,
+        "label": "USDC/WETH 0.30%"
+    },
+    {
+        "address": "0x57713f7716e0b0f65ec116912f834e49805480d2",
+        "protocol": "sushiswap_v3",
+        "fee": 500,
+        "label": "USDC/WETH 0.05% (Sushi V3)"
+    },
+    {
+        "address": "0x482fe995c4a52bc79271ab29a53591363ee30a89",
+        "protocol": "sushiswap_v3",
+        "fee": 100,
+        "label": "USDC/WETH 0.01% (Sushi V3)"
+    },
+    {
+        "address": "0xba3f945812a83471d709bce9c3ca699a19fb46f7",
+        "protocol": "uniswap_v3",
+        "fee": 10000,
+        "label": "BRETT/WETH 1%"
+    },
+    {
+        "address": "0xcdac0d6c6c59727a65f871236188350531885c43",
+        "protocol": "aerodrome_static",
+        "fee": 300,
+        "label": "USDC/WETH Aerodrome 0.03%",
+        "tokens": [
+            "0x4200000000000000000000000000000000000006",
+            "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+        ]
+    },
+    {
+        "address": "0x2578365b3dfa7ffe60108e181efb79feddec2319",
+        "protocol": "aerodrome_static",
+        "fee": 300,
+        "label": "cbBTC/WETH Aerodrome 0.03%",
+        "tokens": [
+            "0x4200000000000000000000000000000000000006",
+            "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+        ]
+    },
+    {
+        "address": "0x9c38b55f9a9aba91bbcedeb12bf4428f47a6a0b8",
+        "protocol": "aerodrome_static",
+        "fee": 300,
+        "label": "cbBTC/USDC Aerodrome 0.03%",
+        "tokens": [
+            "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+            "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+        ]
+    },
+    {
+        "address": "0x72ab388e2e2f6facef59e3c3fa2c4e29011c2d38",
+        "protocol": "pancakeswap_v3",
+        "fee": 100,
+        "label": "USDC/WETH Pancake V3 (dynamic)"
+    },
+    {
+        "address": "0xb2cc224c1c9feE385f8ad6a55b4d94E92359DC59",
+        "protocol": "aerodrome_metapool",
+        "dynamic_fee": true,
+        "label": "USDC/WETH (dynamic)"
+    },
+    {
+        "address": "0x70aCDF2Ad0bf2402C957154f944c19Ef4e1cbAE1",
+        "protocol": "aerodrome_metapool",
+        "dynamic_fee": true,
+        "label": "cbBTC/WETH (dynamic)"
+    },
+    {
+        "address": "0x4e962BB3889Bf030368F56810A9c96B83CB3E778",
+        "protocol": "aerodrome_metapool",
+        "dynamic_fee": true,
+        "label": "USDC/cbBTC (dynamic)"
+    },
+    {
+        "address": "0x3e66e55e97ce60096f74b7C475e8249f2D31a9fb",
+        "protocol": "aerodrome_metapool",
+        "dynamic_fee": true,
+        "label": "USDC/cbBTC (dynamic 2)"
+    },
+    {
+        "address": "0x4a79B0168296c0eF7b8F314973B82aD406a29f1B",
+        "protocol": "aerodrome_metapool",
+        "dynamic_fee": true,
+        "label": "AAVE/WETH (dynamic)"
+    },
+    {
+        "address": "0x47cA96Ea59C13F72745928887f84C9F52C3D7348",
+        "protocol": "aerodrome_metapool",
+        "dynamic_fee": true,
+        "label": "cbETH/WETH (dynamic)"
+    },
+    {
+        "address": "0x4e829F8A5213c42535AB84AA40BD4aDCCE9cba02",
+        "protocol": "aerodrome_metapool",
+        "dynamic_fee": true,
+        "label": "BRETT/WETH (dynamic)"
+    }
+]
