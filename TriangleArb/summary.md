@@ -3,10 +3,9 @@
 ## 📍 Overview
 
 The project includes three different scanners, each designed to detect three-legged triangular arbitrage oppurtunities. 
-This project also includes a triangular arbitrage flashloan smart contract which did succesfully deploy, but did not work properly because the python scanner
-wasn't working properly. 
+This project also includes a triangular arbitrage flashloan smart contract which did succesfully deploy. However, the smart contract was never interacted with because the python scanner wasn't working properly. 
 
-I also beleive I deleted the deployment script, but we do have a deployed smart contract address in the documentation
+I also believe I deleted the deployment script, but we do have a deployed smart contract address in the documentation
 
 ## 🔧 Stack
 
@@ -23,9 +22,9 @@ I also beleive I deleted the deployment script, but we do have a deployed smart 
 | [scanner_log.txt](./scanner_log.txt)       | Data log output of EScanner.py                                       
 | [TriFlashloan.sol](./TriFlashloan.sol) | Solidity contract for the triangular arbitrage flashloan                           
 | [hardhat.config.js](./hardhat.config.js)   | Hardhat configuration for this project                                            
-| [Picture of Escanner output](./EscannerTerminalOut.png)   |                       
-| [Picture of liqap output](./liqapOutput.png) |   
-| [Picture of Scanner output](./ScannerTerminalOut.png) | 
+| [Picture of Escanner output](./EscannerTerminalOut.png)   | Terminal output of Escanner.py                  
+| [Picture of liqap output](./liqapOutput.png) |   Terminal output of liqap.py's tick out of bound error 
+| [Picture of Scanner output](./ScannerTerminalOut.png) | Terminal output of scanner.py
 | [requirements.txt](./requirements.txt) |   lists all Python packages and their specific versions 
 | [documentation.txt](./Documentation.txt) | Commands to activate enviornments and run scripts, and includes some personal notes to self 
 | [package.json](./package.json) | Project configuration and dependencies 
