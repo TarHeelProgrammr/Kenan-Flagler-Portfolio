@@ -17,20 +17,19 @@ I also beleive I deleted the deployment script, but we do have a deployed smart 
 | File                             | Description                                                                       
 |----------------------------------|-----------------------------------------------------------------------------------|
 | [E_Scanner.py](./E_Scanner.py)             | Uses the same three pools every time and writes a working log                      
-| [Scanner.py](./Scanner.py)                 | Dynamically generates triangular route candidates, was filtering unexpected profit alphas due to missing V3 math 
-| [liqap.py](./liqap.py)                     | Integrates V3 math; currently throws “tick out of bounds” errors                  
+| [Scanner.py](./Scanner.py)                 | Dynamically generates triangular route candidates from pools.json; Fasley filtered profits due to no V3 math
+| [liqap.py](./liqap.py)                     | Dynamically generates routes and integrates V3 math; Currently throws “tick out of bounds” errors                  
 | [pools.json](./pools.json)                 | JSON list of all pools used for dynamic pool sourcing                              
 | [scanner_log.txt](./scanner_log.txt)       | Data log output of EScanner.py                                       
 | [TriFlashloan.sol](./contracts/TriFlashloan.sol) | Solidity contract for the triangular arbitrage flashloan                           
 | [hardhat.config.js](./hardhat.config.js)   | Hardhat configuration for this project                                            
-| [image#1]()   |                       
-| [image#2]() |   
-| [image#3]() | 
-| [requirements.txt]() |   
-| [documentation.txt]() | 
-| [package.json]() | 
+| [Picture of Escanner output]()   |                       
+| [Picture of liqap output]() |   
+| [Picture of Scanner outpit]() | 
+| [requirements.txt]() |   lists all Python packages and their specific versions 
+| [documentation.txt]() | Commands to activate enviornments and run scripts, and includes some personal notes to self 
+| [package.json]() | Project configuration and dependencies 
 
 
 
-scanner_log.txt is the output we want to screen shot and some of the terminal,  screen shot whats wrong with liqap.py in terminal ('out of bounds tick error')
 
