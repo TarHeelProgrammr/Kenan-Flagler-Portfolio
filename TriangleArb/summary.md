@@ -4,7 +4,7 @@
 
 The project includes three different scanners, each designed to detect three-legged triangular arbitrage oppurtunities. One of the scanners, Escanner.py, scans the same triangular route each time. The other two scanners dynamically generate multiple routes by building them from a reference list of liqudity pool information in the pools.json file. Out of those two scanners only one of them incorporate V3 math. 
 
-V2 liqudity pools are pools with liquduity spread uniformly acrros the entire price curve. While in V3 pools liquidty providers can deposit liqudity at certain ranges leading to fragmented liqudity across the price curve. It is important to incorporate the appropriate logic based of version type to ensure accurate price data. 
+V2 liqudity pools are pools with liquidity spread uniformly acrros the entire price curve. While in V3 pools liquidity providers can deposit liquidity at certain ranges leading to fragmented liquidity across the price curve. It is important to incorporate the appropriate logic based off of pool version type (V2 or V3) to ensure accurate price data. 
 
 This project also includes a triangular arbitrage flashloan smart contract which did succesfully deploy. However, the smart contract was never interacted with because the python scanner wasn't working properly. I also believe I deleted the deployment script, but we do have a deployed smart contract address in the documentation.
 
