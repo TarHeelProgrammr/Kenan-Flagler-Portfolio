@@ -17,9 +17,9 @@ discrepancies between two fixed tier base WETH/USDC liquidty pools on sushiswap 
 | [BlockScannerBot.cjs](./BlockScannerBot.cjs) | Scans for oppurtunties between two base WETH pools |
 | [Documentation](./Documentation) | poorly made documentation I created, when I was still new to software development workflows |
 | [FlashLoanArbitrageBot23.sol](./FlashLoanArbitrageBot23.sol) | solidity file for the smart contract |
-| [IMG_6076.jpeg](./IMG_6076.jpeg) | Picture of my first ever flashloan being executed in a terminal |
-| [IMG_6079.png](./IMG_6079.png) | Zoomed in picture of my first ever flashloan being executed in a terminal |
-| [Screenshot 2025-08-20 001842.png](./Screenshot%202025-08-20%20001842.png) | Terminal output of the .cjs scanner |
+| [Picture of flashloan](./IMG_6076.jpeg) | Picture of my first ever flashloan being executed in a terminal |
+| [Close up of flashloan](./IMG_6079.png) | Zoomed in picture of my first ever flashloan being executed in a terminal |
+| [.cjs scanner output](./Screenshot%202025-08-20%20001842.png) | Terminal output of the .cjs scanner |
 | [arbitrage_log.txt](./arbitrage_log.txt) | Data log of the .cjs scanner |
 | [deploy.js](./deploy.js) | Script used to deploy smart contract to block chain |
 | [interact.js](./interact.js) | Script used to call the contract |
