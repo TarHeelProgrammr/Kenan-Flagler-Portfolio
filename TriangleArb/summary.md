@@ -4,7 +4,7 @@
 
 The project includes three different scanners, each designed to detect three-legged triangular arbitrage oppurtunities. 
 This project also includes a triangular arbitrage flashloan smart contract which did succesfully deploy, but did not work properly because the python scanner
-weren't working properly. 
+wasn't working properly. 
 
 I also beleive I deleted the deployment script, but we do have a deployed smart contract address in the documentation
 
@@ -25,7 +25,10 @@ I also beleive I deleted the deployment script, but we do have a deployed smart 
 | [hardhat.config.js](./hardhat.config.js)   | Hardhat configuration for this project                                            
 | [image#1]()   |                       
 | [image#2]() |   
+| [image#3]() | 
 | [requirements.txt]() |   
+| [documentation.txt]() | 
+| [package.json]() | 
 
 
 
