@@ -3,7 +3,7 @@ This is my portfolio for my Kenan-Flagler Business school application.
 
 # Portfolio Projects – Kenan-Flagler Application
 
-This portfolio is intended to display my technical skills and demonstrates how the integration of AI with finance and 
+This portfolio is intended to display my technical skills, and demonstrate how the integration of AI with finance and 
 conceptual coding knowledge has increased my ability as an entreprenuer. 
 
 Projects #1 & #2 were my personal endeavours which I developed using AI.  While projects 4-5 were through the Global Career Accelerator Coding 
