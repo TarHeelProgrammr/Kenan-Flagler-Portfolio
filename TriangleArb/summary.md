@@ -14,23 +14,24 @@ This project also includes a triangular arbitrage flashloan smart contract which
 - Python (for off-chain analytics)  
 - Node.js  
 - Base Mainnet RPC(HTTP) Alchemy 
-- Base Mainnet RPC(Websockets) Alchemy 
-| File                             | Description                                                                       
-|----------------------------------|-----------------------------------------------------------------------------------|
-| [EScanner.py](./Escanner.py)             | Uses the same three pools every time and writes a working log                      
-| [Scanner.py](./scanner.py)                 | Dynamically generates triangular route candidates from pools.json; Fasley filtered profits due to no V3 math
-| [liqap.py](./liqap.py)                     | Dynamically generates routes and integrates V3 math; Currently throws “tick out of bounds” errors                  
-| [pools.json](./pools.json)                 | JSON list of all pools used for dynamic pool sourcing                              
-| [scanner_log.txt](./scanner_log.txt)       | Data log output of EScanner.py                                       
-| [TriFlashloan.sol](./TriFlashloan.sol) | Solidity contract for the triangular arbitrage flashloan                           
-| [hardhat.config.js](./hardhat.config.js)   | Hardhat configuration for this project                                            
-| [Picture of Escanner output](./EscannerTerminalOut.png)   | Terminal output of Escanner.py                  
-| [Picture of liqap output](./liqapOutput.png) |   Terminal output of liqap.py's tick out of bound error 
-| [Picture of Scanner output](./ScannerTerminalOut.png) | Terminal output of scanner.py
-| [requirements.txt](./requirements.txt) |   lists all Python packages and their specific versions 
-| [documentation.txt](./Documentation.txt) | Commands to activate enviornments and run scripts, and includes some personal notes to self 
-| [package.json](./package.json) | Project configuration and dependencies 
+- Base Mainnet RPC(Websockets) Alchemy
 
+
+| File                                             | Description                                                                            |
+|--------------------------------------------------|----------------------------------------------------------------------------------------|
+| [EScanner.py](./Escanner.py)                     | Uses the same three pools every time and writes a working log                          |
+| [Scanner.py](./scanner.py)                       | Dynamically generates triangular route candidates from pools.json; falsely filters profits due to no V3 math |
+| [liqap.py](./liqap.py)                           | Dynamically generates routes and integrates V3 math; currently throws “tick out of bounds” errors |
+| [pools.json](./pools.json)                       | JSON list of all pools used for dynamic pool sourcing                                 |
+| [scanner_log.txt](./scanner_log.txt)             | Data log output of EScanner.py                                                         |
+| [TriFlashloan.sol](./TriFlashloan.sol)           | Solidity contract for the triangular arbitrage flashloan                               |
+| [hardhat.config.js](./hardhat.config.js)         | Hardhat configuration for this project                                                |
+| [EscannerTerminalOut.png](./EscannerTerminalOut.png) | Terminal output of EScanner.py                                                    |
+| [liqapOutput.png](./liqapOutput.png)             | Terminal output of liqap.py’s tick out of bounds error                                 |
+| [ScannerTerminalOut.png](./ScannerTerminalOut.png) | Terminal output of scanner.py                                                       |
+| [requirements.txt](./requirements.txt)           | Lists all Python packages and their specific versions                                 |
+| [Documentation.txt](./Documentation.txt)         | Commands to activate environments and run scripts; includes personal notes to self     |
+| [package.json](./package.json)                   | Project configuration and dependencies                                                |
 
 
 
