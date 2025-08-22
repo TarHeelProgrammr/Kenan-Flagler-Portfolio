@@ -29,7 +29,7 @@ project.
 
 ### 4. [Intro to Python Project](./intro-python/)
 - Small group project from the Global Career Accelerator Summer Program
-- Maniuplated a data set for the Recording Academy.com
+- Manipulated a data set for the Recording Academy.com
 
 ### 5. [Intro to SQL Project](./intro-sql/)
 - Used SQL to analyze the caliber of sustainability in intels refurbishing program.
